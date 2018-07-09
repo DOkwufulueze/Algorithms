@@ -1,3 +1,11 @@
+/*
+* Author: Daniel Okwufulueze
+* Date: 09/07/2018
+* Name: Factorial
+* Purpose: Implement the Factorial function for very large numbers, eg 200!, 500!, 760!, etc.
+*          Factorial for smaller numbers still works with this implementation..
+*/
+
 function multiply (a, b) {
   let aArray = a.toString().split("").reverse(); // Bring the lsd to the left
   let result = [];
