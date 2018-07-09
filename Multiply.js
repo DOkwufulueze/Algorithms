@@ -25,3 +25,7 @@ function multiply (a, b) {
 
   return result.reverse().join("");
 }
+
+console.log("121 * 12 = " + multiply(121, 12));
+console.log("5 * 8 = " + multiply(5, 8));
+console.log("121021332 * 92 = " + multiply(121021332, 92));
