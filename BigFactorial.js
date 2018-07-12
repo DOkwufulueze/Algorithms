@@ -28,6 +28,8 @@ function multiply (a, b) {
 }
 
 function factorial (n) {
+  if (n < 0 || isNaN(n)) return -1;
+
   let value = 1;
 
   for (let i = 1; i <= n; i++) {
