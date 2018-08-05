@@ -43,7 +43,8 @@ function factorial (n) {
 console.log("100! = ", factorial(100));
 console.log("500! = ", factorial(500));
 console.log("6! = ", factorial(6));
-console.log("5! = ", factorial(5));
-console.log("4! = ", factorial(4));
+console.log("3100! = ", factorial(3100));
+console.log("2400! = ", factorial(2400));
 console.log("10! = ", factorial(10));
 console.log("210! = ", factorial(210));
+console.log("5000! = ", factorial(5000));
